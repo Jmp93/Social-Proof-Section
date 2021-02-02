@@ -27,7 +27,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 .header__text {
@@ -86,7 +86,7 @@ body {
 }
 
 .testimonial {
-  height: 350px;
+  height: 300px;
 }
 
 .testimonial__box {

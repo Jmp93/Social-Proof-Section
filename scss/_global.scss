@@ -23,7 +23,7 @@ body {
 
 .header {
   justify-content: space-between;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 
   &__text {
     max-width: 29rem;
@@ -80,7 +80,7 @@ body {
 }
 
 .testimonial {
-  height: 350px;
+  height: 300px;
   &__box {
     background-color: $vDarkMagenta;
     padding: 50px 2.875rem 50px 40px;
@@ -99,9 +99,6 @@ body {
     width: 50px;
     border-radius: 100%;
     margin-right: 22px;
-  }
-
-  &__name {
   }
 
   &__first {
