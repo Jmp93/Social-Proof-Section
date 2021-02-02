@@ -3,10 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="/scss/main.css">
     <title>Frontend Mentor | Social proof section</title>
   </head>
   <body>
-    
+    <header class="header flex">
+      <div class="header__text">
+        <h1 class="header__heading">10,000+ of our users love our products.</h1>
+        <p class="header__sub">We only provide great products combined with excellent customer service. See what our satisfied customers are saying aout our services.</p>
+      </div>
+
+      <div class="header__ratings">
+        <div class="header__box header__box--1 flex">
+          <div class="header__stars">
+            <img src="/images/icon-star.svg" alt="star" class="header__star">
+            <img src="/images/icon-star.svg" alt="star" class="header__star">
+            <img src="/images/icon-star.svg" alt="star" class="header__star">
+            <img src="/images/icon-star.svg" alt="star" class="header__star">
+            <img src="/images/icon-star.svg" alt="star" class="header__star">
+          </div>
+          <p class="header__review">Rated 5 Stars in Reviews</p>
+        </div>
+
+        <div class="header__box header__box--2 flex">
+          <div class="header__stars">
+            <img src="/images/icon-star.svg" alt="star" class="header__star">
+            <img src="/images/icon-star.svg" alt="star" class="header__star">
+            <img src="/images/icon-star.svg" alt="star" class="header__star">
+            <img src="/images/icon-star.svg" alt="star" class="header__star">
+            <img src="/images/icon-star.svg" alt="star" class="header__star">
+          </div>
+          <p class="header__review">Rated 5 Stars in Report Guru</p>
+        </div>
+
+        <div class="header__box header__box--3 flex">
+          <div class="header__stars">
+            <img src="/images/icon-star.svg" alt="star" class="header__star">
+            <img src="/images/icon-star.svg" alt="star" class="header__star">
+            <img src="/images/icon-star.svg" alt="star" class="header__star">
+            <img src="/images/icon-star.svg" alt="star" class="header__star">
+            <img src="/images/icon-star.svg" alt="star" class="header__star">
+          </div>
+          <p class="header__review">Rated 5 Stars in BestTech</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="testimonial flex">
+
+      <div class="testimonial__box testimonial__box--1">
+        <div class="testimonial__user flex">
+          <div class="testimonial__img">
+            <img src="/images/image-colton.jpg" alt="">
+          </div>
+          <div class="testimonial__name">
+            <p class="testimonial__first">Colton Smith</p>
+            <p class="testimonial__role">Verified Buyer</p>
+          </div>
+        </div>
+        <p class="testimonial__quote">" We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent! "</p>
+      </div>
+
+      <div class="testimonial__box testimonial__box--2">
+        <div class="testimonial__user flex">
+          <div class="testimonial__img">
+            <img src="/images/image-irene.jpg" alt="">
+          </div>
+          <div class="testimonial__name">
+            <p class="testimonial__first">Irene Roberts</p>
+            <p class="testimonial__role">Verified Buyer</p>
+          </div>
+        </div>
+        <p class="testimonial__quote">" Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery. "</p>
+      </div>
+
+      <div class="testimonial__box testimonial__box--3">
+        <div class="testimonial__user flex">
+          <div class="testimonial__img">
+            <img src="/images/image-anne.jpg" alt="">
+          </div>
+          <div class="testimonial__name">
+            <p class="testimonial__first">Anne Wallace</p>
+            <p class="testimonial__role">Verified Buyer</p>
+          </div>
+        </div>
+        <p class="testimonial__quote">" Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone! "</p>
+      </div>
+
+    </section>
   </body>
 </html>

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: $spartan;
+  padding: 8rem 10.3125rem 6.25rem 10.3125rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.header {
+  justify-content: space-between;
+  margin-bottom: 5rem;
+
+  &__text {
+    max-width: 29rem;
+  }
+
+  &__heading {
+    font-size: 3.25rem;
+    color: $vDarkMagenta;
+    margin-bottom: 0.9375rem;
+  }
+
+  &__sub {
+    font-size: 0.9375rem;
+    line-height: 1.8;
+    color: $darkGrayMagenta;
+    font-weight: 500;
+  }
+
+  &__ratings {
+    min-width: 33.75rem;
+  }
+
+  &__box {
+    background-color: $grayMagenta;
+    align-items: center;
+    padding: 1.25rem 2rem;
+    border-radius: 10px;
+    max-width: 27.8125rem;
+    margin-top: 1rem;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__box--1 {
+    margin-right: auto;
+  }
+
+  &__box--2 {
+    margin: 0 auto;
+  }
+
+  &__box--3 {
+    margin-left: auto;
+  }
+
+  &__review {
+    font-size: 0.75rem;
+    color: $vDarkMagenta;
+    font-weight: 700;
+    padding-left: 2rem;
+  }
+}
