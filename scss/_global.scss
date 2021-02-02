@@ -23,7 +23,7 @@ body {
 
 .header {
   justify-content: space-between;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
 
   &__text {
     max-width: 29rem;
@@ -76,5 +76,64 @@ body {
     color: $vDarkMagenta;
     font-weight: 700;
     padding-left: 2rem;
+  }
+}
+
+.testimonial {
+  height: 350px;
+  &__box {
+    background-color: $vDarkMagenta;
+    padding: 50px 2.875rem 50px 40px;
+    border-radius: 0.5rem;
+
+    &:not(:last-child) {
+      margin-right: 2.875rem;
+    }
+  }
+
+  &__user {
+    align-items: center;
+  }
+
+  img {
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 22px;
+  }
+
+  &__name {
+  }
+
+  &__first {
+    color: $grayMagenta;
+    font-weight: 700;
+    margin-bottom: 7px;
+  }
+
+  &__role {
+    color: $softPink;
+  }
+
+  &__quote {
+    margin-top: 30px;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: $grayMagenta;
+  }
+
+  &__box--1 {
+    align-self: flex-start;
+  }
+
+  &__box--2 {
+    // margin-top: 1rem;
+    align-self: center;
+  }
+
+  &__box--3 {
+    align-self: flex-end;
+    // margin-top: 2rem;
   }
 }

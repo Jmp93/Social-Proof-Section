@@ -27,7 +27,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
 }
 
 .header__text {
@@ -83,5 +83,66 @@ body {
   color: #502050;
   font-weight: 700;
   padding-left: 2rem;
+}
+
+.testimonial {
+  height: 350px;
+}
+
+.testimonial__box {
+  background-color: #502050;
+  padding: 50px 2.875rem 50px 40px;
+  border-radius: 0.5rem;
+}
+
+.testimonial__box:not(:last-child) {
+  margin-right: 2.875rem;
+}
+
+.testimonial__user {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonial img {
+  width: 50px;
+  border-radius: 100%;
+  margin-right: 22px;
+}
+
+.testimonial__first {
+  color: #f7f2f7;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.testimonial__role {
+  color: #ee68a4;
+}
+
+.testimonial__quote {
+  margin-top: 30px;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #f7f2f7;
+}
+
+.testimonial__box--1 {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.testimonial__box--2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.testimonial__box--3 {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 /*# sourceMappingURL=main.css.map */
